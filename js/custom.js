@@ -5,7 +5,6 @@ var student1={
     lname:'lohar',
     address:"sarwaniya maharaj",
     education:"BA",
-  
    
 }
   console.log(student1.fname)
@@ -15,17 +14,17 @@ var student1={
 
 
 let student2={
-  fname:'rohit',
-  lname:'mali',
-  address:"neemuch",
-  education:'BCA',
+  fname:' rohit',
+  lname:' mali',
+  address:" neemuch",
+  education:' BCA',
 
   getFullDetails(){
-    console.log(student2.fname)
+    console.log('hy '+this.fname +this.lname +this.address +this.education)
   }
   }
   
-  console.log(student2.fname)
+  console.log(student2.getFullDetails())//access with js function
   
 
 
